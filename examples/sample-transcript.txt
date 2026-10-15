@@ -1,0 +1,5 @@
+$ hello-cli --help
+usage: hello-cli [-h] [--name NAME]
+
+$ hello-cli --name World
+Hello, World!

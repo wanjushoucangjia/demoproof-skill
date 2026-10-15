@@ -1,0 +1,14 @@
+{
+  "manual_review_required": true,
+  "redaction_counts": {
+    "aws-key": 0,
+    "bearer": 0,
+    "credential": 0,
+    "email": 0,
+    "github-token": 0,
+    "home-path": 0,
+    "private-key": 0
+  },
+  "residual_rule_matches": [],
+  "rule_version": "1"
+}

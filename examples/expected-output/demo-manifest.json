@@ -1,0 +1,18 @@
+{
+  "executed": false,
+  "exit_code": null,
+  "input_sha256": "d2767449895305610f078e40d90053660b1d25ce01e5dd76f4e2ab8042f2f57b",
+  "mode": "both",
+  "outputs": {
+    "demo.html": "666e8f6c73bbbed2366e7c618938837fe55f18783fdba14e824514b005f89040",
+    "demo.md": "0fae6ae3701fb0532cda7cd93a6548c83c2e36eb03a943c409bfbe7d66e29881",
+    "demo.svg": "44ed393d3d911582a2142906014774068642fbe118c6cf3334014a2b529f2e0c",
+    "redaction-report.json": "8d6c42d67052dbc12d229c8bc685acb1399d4c01e33ee2352278e104d5275d54"
+  },
+  "redaction_rule_version": "1",
+  "reproduce": "python -m demoproof render --input <transcript> --out <absolute-directory> --theme dark --width 80 --format both --title \"Hello CLI demo\"",
+  "source": "supplied transcript",
+  "theme": "dark",
+  "tool_version": "0.1.0",
+  "width": 80
+}
